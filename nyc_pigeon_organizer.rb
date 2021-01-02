@@ -13,6 +13,6 @@ new_hash = data.each_with_object({}) do |(k, v), array|
         end
         array[name][k] << inner_k.to_s
       end  
-    endf
+    end
   end
 end
